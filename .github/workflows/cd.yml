@@ -6,11 +6,15 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client # 👈 sets the working directory for all steps
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install dependencies
-        run: cd client && npm install
+        run: npm install
       - name: Deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
