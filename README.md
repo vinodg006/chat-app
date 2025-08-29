@@ -1,20 +1,73 @@
+<div align="center">
+  <img src="images/title.jpg" />
+</div>
+
+
+<div align="center">
+ 
+ <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="node.js" />
+    <img src="https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="express.js" />
+    <img src="https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
+</div>
+
 # Realtime Chat Application
 
-### [Live Site](https://realtime-chat-application.netlify.com)
+A chat app to chat with like-minded people in a community.
 
-### [🌟 Become a top 1% Next.js developer in only one course](https://jsmastery.pro/next15)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+[Checkout the demo](https://classy-peony-9eeb9a.netlify.app/)
 
-![Chat Application](https://i.ytimg.com/vi/ZwFA3YMfkoc/maxresdefault.jpg)
+![Demo](images/demo.gif)
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
 
-In this video, we will create a full Realtime Chat Application. We're going to use  React on the front end, with NodeJS + Socket.io web socket library on the back end. 
+## <a name="features">🔋 Features</a>
 
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
+👉 Join a community/room of choice
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+👉 Chat using emojis
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+👉 See who's online
+
+
+## Tech Stack
+
+**Framework:** ReactJS, Express.js
+
+**Communication:** Socket.io
+
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+
+**Client Installation**
+
+Install the project dependencies using npm:
+
+```bash
+cd client
+npm install
+```
+
+
+**Running the Client**
+
+```bash
+npm start
+```
+
+**Server Installation**
+
+Install the project dependencies using npm:
+
+```bash
+cd server
+npm install
+```
+
+
+**Running the Server**
+
+```bash
+npm start
+```
